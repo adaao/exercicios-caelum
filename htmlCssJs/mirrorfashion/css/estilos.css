@@ -1,0 +1,90 @@
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+
+header{
+    position: relative;
+}
+
+.sacola{
+    background: url(../img/sacola.png) no-repeat top right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    padding-top: 8px;
+}
+
+.menu-opcoes{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes a{
+    color: #003366;
+}
+
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+body{
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+.busca, 
+.menu-departamentos {
+    float: left;
+    text-transform: uppercase;
+}
+
+.menu-departamentos{
+    clear: left;
+}
+
+.menu-departamentos ul li{
+    border-bottom: 2px solid #ccc;
+}
+
+.busca p{
+    background-color: #ccc;
+    width: 220px;
+}
+
+
+
+
+
+
+
+
+/*arquivo de testes da apostila
+body{
+    font-family: "Arial", "Helvetica", sans-serif;
+    background-image: url(../img/body-background.png);
+    /*
+    Para que o efeito da cor sobre a borda surta efeito, é necessário que a propriedade border-style tenha qualquer valor diferente do padrão none.
+    
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+}
+
+p{
+    text-align: justify;
+}
+*/
+
+
